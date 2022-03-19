@@ -1,2 +1,0 @@
-from PyInstaller.utils.hooks import copy_metadata
-datas = copy_metadata('tqdm') + copy_metadata('torch') + copy_metadata('regex') + copy_metadata('sacremoses') +  copy_metadata('requests') +  copy_metadata('packaging') +  copy_metadata('filelock') +  copy_metadata('numpy') +  copy_metadata('tokenizers') +  copy_metadata('importlib_metadata')  
